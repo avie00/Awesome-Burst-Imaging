@@ -1,9 +1,9 @@
 # Burst-Imaging
 A Comprehensive Collection of Papers and Repositories from CVPR, ICCV, and WACV (2016-2023)
 
-Here is a curated collection of papers and respective repositories on the fascinating field of burst imaging, spanning from the years 2016 to 2023. Burst imaging has emerged as a powerful technique in computer vision and image processing, allowing us to capture and analyze temporal sequences of images to gain valuable insights. In recent years, top-tier conferences in computer vision, including CVPR (Conference on Computer Vision and Pattern Recognition), ICCV (International Conference on Computer Vision), and WACV (Winter Conference on Applications of Computer Vision) and journals have witnessed a surge in research focused on burst imaging. The collection encompasses a wide range of topics related to burst imaging, including but not limited to burst photography but burst imaging for robotic vision, super-resolution, depth estimation, image denoising and neural radiance field. This repository aims to provide researchers, practitioners, and enthusiasts with a centralized resource to explore the advancements made in this exciting area.
+Burst imaging has emerged as a powerful technique in computer vision and image processing, allowing us to capture and analyze temporal sequences of images to gain valuable insights. In recent years, top-tier conferences in computer vision, including CVPR (Conference on Computer Vision and Pattern Recognition), ICCV (International Conference on Computer Vision), and WACV (Winter Conference on Applications of Computer Vision) and journals have witnessed a surge in research focused on burst imaging.
 
-Please note that this collection is an ongoing effort, and we will continue to update it with new papers and repositories from future conferences and journals. We encourage the community to contribute by suggesting additional papers or repositories that may have been missed. Happy exploring!
+Please note that this collection is an ongoing effort, and encourage the community to contribute by suggesting additional papers or repositories that may have been missed. Happy exploring!
 
 # Conferences
 ## SIGGRAPH 2023
