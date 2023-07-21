@@ -1,2 +1,54 @@
 # Burst-Imaging
-Collection of papers and repositories on burst imaging
+A Comprehensive Collection of Papers and Repositories from CVPR, ICCV, and WACV (2016-2023)
+
+Here is a curated collection of papers and respective repositories on the fascinating field of burst imaging, spanning from the years 2016 to 2023. Burst imaging has emerged as a powerful technique in computer vision and image processing, allowing us to capture and analyze temporal sequences of images to gain valuable insights. In recent years, top-tier conferences in computer vision, including CVPR (Conference on Computer Vision and Pattern Recognition), ICCV (International Conference on Computer Vision), and WACV (Winter Conference on Applications of Computer Vision) and journals have witnessed a surge in research focused on burst imaging. The collection encompasses a wide range of topics related to burst imaging, including but not limited to burst photography but burst imaging for robotic vision, super-resolution, depth estimation, image denoising and neural radiance field. This repository aims to provide researchers, practitioners, and enthusiasts with a centralized resource to explore the advancements made in this exciting area.
+
+Please note that this collection is an ongoing effort, and we will continue to update it with new papers and repositories from future conferences and journals. We encourage the community to contribute by suggesting additional papers or repositories that may have been missed. Happy exploring!
+
+# Conferences
+## SIGGRAPH 2023
+### Computational Photography (Super-Resolution)
+#### High dynamic range and super-resolution from raw image bursts | [paper](https://dl.acm.org/doi/pdf/10.1145/3528223.3530180/) |
+- A novel method for reconstructing high-resolution, high-dynamic range color images from raw photographic bursts taken by handheld cameras with exposure bracketing.
+- This approach leverages a physically-accurate model of image formation by combining an iterative optimization algorithm for solving the inverse problem, a learned image representation for alignment, and a learned natural image prior.
+
+## SIGGRAPH ASIA 2022
+
+## CVPR 2023
+
+## WACV 2023
+
+## SIGGRAPH 2022
+
+## SIGGRAPH ASIA 2022
+
+## ICCV 2022
+
+## CVPR 2022
+
+## WACV 2022
+
+## SIGGRAPH 2021
+
+## SIGGRAPH ASIA 2022
+
+## ICCV 2021
+
+## CVPR 2021
+
+## WACV 2021
+
+# Journals
+# 2022
+## RA-L
+### Robotic Vision (Low-Light Enhancement)
+#### Burst Imaging for Light-Constrained Structure-From-Motion | [paper](https://roboticimaging.org/Papers/ravendran2022burst.pdf/) | [project] (https://roboticimaging.org/Projects/BurstSfM/)
+- Establishes the viability of using burst imaging to improve robotic vision in low light, and provide a set of recommendations for adopting this approach in reconstruction tasks such as SfM.
+- Enables the use of direct methods for image registration within bursts by exploiting the small camera motion between frames to yield a strong SNR advantage and applies feature-based methods to handle large camera motions between bursts for reconstruction.
+  
+## ACM ToG
+### Computational Photography (Super Resolution)
+#### High dynamic range and super-resolution from raw image bursts | [paper](https://dl.acm.org/doi/pdf/10.1145/3528223.3530180/) |
+- Reconstructs high-resolution, high-dynamic range color images from raw photographic bursts taken by handheld cameras with exposure bracketing.
+- Leverages a physically-accurate model of image formation by combining an iterative optimization algorithm for solving the inverse problem, a learned image representation for alignment, and a learned natural image prior.
+
