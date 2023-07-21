@@ -8,14 +8,31 @@ Please note that this collection is an ongoing effort, and encourage the communi
 
 # Conferences
 ## CVPR 2023
+### Computational Photography (Image Restoration and Enhancement)
+#### Burstormer: Burst Image Restoration and Enhancement Transformer [paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Dudhane_Burstormer_Burst_Image_Restoration_and_Enhancement_Transformer_CVPR_2023_paper.pdf)
+- Proposes Burstormer, a transformer-based architecture for burst image restoration and enhancement, addressing the challenges of misalignment and degradation in burst frames.
+Exploits multi-scale local and non-local features to achieve improved alignment and feature fusion, enabling inter-frame communication and burst-wide context modeling.
+- Introduces an enhanced deformable alignment module that not only aligns burst features but also exchanges feature information and maintains focused communication with the reference frame through a reference-based feature enrichment mechanism.
 
+### Computational Photography (Image Restoration and Enhancement)
+#### Gated Multi-Resolution Transfer Network for Burst Restoration and Enhancement [paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Mehta_Gated_Multi-Resolution_Transfer_Network_for_Burst_Restoration_and_Enhancement_CVPR_2023_paper.pdf)
+- Proposes a novel Gated Multi-Resolution Transfer Network (GMTNet) that addresses the challenges of burst image processing, including multiple degradations, misalignments, and limited utilization of mutual correlation and contextual information among burst frames by incorporating three optimized modules: Multi-scale Burst Feature Alignment (MBFA) for denoising and alignment, Transposed-Attention Feature Merging (TAFM) for multi-frame aggregation, and Resolution Transfer Feature Up-sampler (RTFU) for high-quality image reconstruction.
+  
 ## WACV 2023
-### Computational Imaging (Quanta Burst Low-Light Enhancement)
+### Computational Photography (Reflection Removal)
+#### Burst Reflection Removal using Reflection Motion Aggregation Cues [paper](https://openaccess.thecvf.com/content/WACV2023/papers/Prasad_Burst_Reflection_Removal_Using_Reflection_Motion_Aggregation_Cues_WACV_2023_paper.pdf)
+- Introduces a multi-stage deep learning approach for burst reflection removal, addressing the limitations of existing multi-image methods that require different view points and wide baselines.
+- Leverages a burst of images captured in a short time duration, exploiting subtle handshakes to separate reflection and transmission layers, and presents a novel reflection motion aggregation (RMA) cue that emphasizes the transmission layer and aids in better layer separation.
+
+### Computational Photography (Super Resolution)
+#### Kernel-Aware Burst Blind Super-Resolution [paper](https://openaccess.thecvf.com/content/WACV2023/papers/Lian_Kernel-Aware_Burst_Blind_Super-Resolution_WACV_2023_paper.pdf)
+- Introduces a kernel-guided strategy consisting of two steps: kernel estimation and HR image restoration to effectively handle complicated and unknown degradations in real-world low-resolution (LR) images, overcoming the limitations of existing non-blind designed networks.
+- Proposes a pyramid kernel-aware deformable alignment module that aligns raw images considering blurry priors, enhancing the accuracy of the restoration process.
+
+### Quanta Burst Imaging (Low-Light Enhancement)
 #### Burst Vision Using Single-Photon Cameras [paper](https://openaccess.thecvf.com/content/WACV2023/papers/Ma_Burst_Vision_Using_Single-Photon_Cameras_WACV_2023_paper.pdf)
 - Proposes the development of quanta vision algorithms based on burst processing to extract scene information from single-photon avalanche diodes (SPAD) photon streams, enabling the use of high-resolution SPAD arrays as passive sensors for general computer vision tasks.
 - Demonstrates the capabilities of SPAD sensors, combined with burst processing, in handling extremely challenging imaging conditions such as fast motion, low light, and high dynamic range, and showcases their effectiveness in various real-world computer vision tasks including object detection, pose estimation, SLAM, and text recognition.
-  
-## ICCV 2022
 
 ## CVPR 2022
 
@@ -26,6 +43,12 @@ Please note that this collection is an ongoing effort, and encourage the communi
 ## CVPR 2021
 
 ## WACV 2021
+
+## ECCV 2020
+
+## CVPR 2020
+
+## WACV 2020
 
 # Journals
 # 2022
@@ -43,7 +66,7 @@ Please note that this collection is an ongoing effort, and encourage the communi
 
 ## 2020
 ## ACM ToG
-### Computational Imaging (Quanta Burst Low-Light Enhancement)
+### Quanta Burst Imaging (Low-Light Enhancement)
 #### Quanta Burst Photography | [paper](https://dl.acm.org/doi/pdf/10.1145/3528223.3530180/](https://wisionlab.com/project/quanta-burst-photography/) |
 - Introduces qa computational photography technique that utilizes single-photon cameras (SPCs) as passive imaging devices for challenging conditions like ultra low-light and fast motion.
 - Aligns and merges binary sequences from SPCs, producing intensity images with minimal motion blur, artifacts, high signal-to-noise ratio (SNR), and a wide dynamic range demonstrate the generation of high-quality images using SPADs.
