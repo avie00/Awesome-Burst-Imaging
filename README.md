@@ -34,10 +34,14 @@ Exploits multi-scale local and non-local features to achieve improved alignment 
 
 ## CVPR 2022
 
-### Computational Photography (Image Restoration and Enhancement)
+### Computational Photography (Image Restoration and Enhancement, Low Light Enhancement, Large Shift Alignment)
 #### Burst Image Restoration and Enhancement [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Dudhane_Burst_Image_Restoration_and_Enhancement_CVPR_2022_paper.pdf) | [Project](https://github.com/akshaydudhane16/BIPNet) |
 - Introduces the concept of pseudo-burst features, combining complimentary information from input burst frames to facilitate seamless information exchange and uses an edge-boosting burst alignment module to properly align individual burst frames, enabling successful creation of pseudo-burst features.
 - Enriches the pseudo-burst features using multi-scale contextual information, and adaptively aggregates information to progressively increase resolution and merge the pseudo-burst features.
+
+#### A Differentiable Two-stage Alignment Scheme for Burst Image Reconstruction with Large Shift [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_A_Differentiable_Two-Stage_Alignment_Scheme_for_Burst_Image_Reconstruction_With_CVPR_2022_paper.pdf) |
+
+#### NAN: Noise-Aware NeRFs for Burst-Denoising [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Pearl_NAN_Noise-Aware_NeRFs_for_Burst-Denoising_CVPR_2022_paper.pdf) |
 
 
 ## WACV 2022
