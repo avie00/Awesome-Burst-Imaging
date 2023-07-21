@@ -9,22 +9,20 @@ Please note that this collection is an ongoing effort, and encourage the communi
 # Conferences
 ## CVPR 2023
 ### Computational Photography (Image Restoration and Enhancement)
-#### Burstormer: Burst Image Restoration and Enhancement Transformer [paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Dudhane_Burstormer_Burst_Image_Restoration_and_Enhancement_Transformer_CVPR_2023_paper.pdf)
+#### Burstormer: Burst Image Restoration and Enhancement Transformer [paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Dudhane_Burstormer_Burst_Image_Restoration_and_Enhancement_Transformer_CVPR_2023_paper.pdf) | [Project](https://github.com/akshaydudhane16/Burstormer)
 - Proposes Burstormer, a transformer-based architecture for burst image restoration and enhancement, addressing the challenges of misalignment and degradation in burst frames.
 Exploits multi-scale local and non-local features to achieve improved alignment and feature fusion, enabling inter-frame communication and burst-wide context modeling.
 - Introduces an enhanced deformable alignment module that not only aligns burst features but also exchanges feature information and maintains focused communication with the reference frame through a reference-based feature enrichment mechanism.
 
-### Computational Photography (Image Restoration and Enhancement)
-#### Gated Multi-Resolution Transfer Network for Burst Restoration and Enhancement [paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Mehta_Gated_Multi-Resolution_Transfer_Network_for_Burst_Restoration_and_Enhancement_CVPR_2023_paper.pdf)
+#### Gated Multi-Resolution Transfer Network for Burst Restoration and Enhancement [paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Mehta_Gated_Multi-Resolution_Transfer_Network_for_Burst_Restoration_and_Enhancement_CVPR_2023_paper.pdf) | [Project](https://github.com/nanmehta/GMTNet) |
 - Proposes a novel Gated Multi-Resolution Transfer Network (GMTNet) that addresses the challenges of burst image processing, including multiple degradations, misalignments, and limited utilization of mutual correlation and contextual information among burst frames by incorporating three optimized modules: Multi-scale Burst Feature Alignment (MBFA) for denoising and alignment, Transposed-Attention Feature Merging (TAFM) for multi-frame aggregation, and Resolution Transfer Feature Up-sampler (RTFU) for high-quality image reconstruction.
   
 ## WACV 2023
-### Computational Photography (Reflection Removal)
+### Computational Photography (Reflection Removal, Super Resolution)
 #### Burst Reflection Removal using Reflection Motion Aggregation Cues [paper](https://openaccess.thecvf.com/content/WACV2023/papers/Prasad_Burst_Reflection_Removal_Using_Reflection_Motion_Aggregation_Cues_WACV_2023_paper.pdf)
 - Introduces a multi-stage deep learning approach for burst reflection removal, addressing the limitations of existing multi-image methods that require different view points and wide baselines.
 - Leverages a burst of images captured in a short time duration, exploiting subtle handshakes to separate reflection and transmission layers, and presents a novel reflection motion aggregation (RMA) cue that emphasizes the transmission layer and aids in better layer separation.
 
-### Computational Photography (Super Resolution)
 #### Kernel-Aware Burst Blind Super-Resolution [paper](https://openaccess.thecvf.com/content/WACV2023/papers/Lian_Kernel-Aware_Burst_Blind_Super-Resolution_WACV_2023_paper.pdf)
 - Introduces a kernel-guided strategy consisting of two steps: kernel estimation and HR image restoration to effectively handle complicated and unknown degradations in real-world low-resolution (LR) images, overcoming the limitations of existing non-blind designed networks.
 - Proposes a pyramid kernel-aware deformable alignment module that aligns raw images considering blurry priors, enhancing the accuracy of the restoration process.
@@ -35,6 +33,12 @@ Exploits multi-scale local and non-local features to achieve improved alignment 
 - Demonstrates the capabilities of SPAD sensors, combined with burst processing, in handling extremely challenging imaging conditions such as fast motion, low light, and high dynamic range, and showcases their effectiveness in various real-world computer vision tasks including object detection, pose estimation, SLAM, and text recognition.
 
 ## CVPR 2022
+
+### Computational Photography (Image Restoration and Enhancement)
+#### Burst Image Restoration and Enhancement [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Dudhane_Burst_Image_Restoration_and_Enhancement_CVPR_2022_paper.pdf) | [Project](https://github.com/akshaydudhane16/BIPNet) |
+- Introduces the concept of pseudo-burst features, combining complimentary information from input burst frames to facilitate seamless information exchange and uses an edge-boosting burst alignment module to properly align individual burst frames, enabling successful creation of pseudo-burst features.
+- Enriches the pseudo-burst features using multi-scale contextual information, and adaptively aggregates information to progressively increase resolution and merge the pseudo-burst features.
+
 
 ## WACV 2022
 
