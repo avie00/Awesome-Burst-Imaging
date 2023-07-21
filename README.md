@@ -5,6 +5,8 @@ Burst imaging has emerged as a powerful technique in computer vision and image p
 
 Please note that this collection is an ongoing effort, and encourage the community to contribute by suggesting additional papers or repositories that may have been missed. Happy exploring!
 
+
+
 # Conferences
 ## SIGGRAPH 2023
 ### Computational Photography (Super-Resolution)
