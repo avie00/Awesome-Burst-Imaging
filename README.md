@@ -42,7 +42,7 @@ Please note that this collection is an ongoing effort, and we will continue to u
 # 2022
 ## RA-L
 ### Robotic Vision (Low-Light Enhancement)
-#### Burst Imaging for Light-Constrained Structure-From-Motion | [paper](https://roboticimaging.org/Papers/ravendran2022burst.pdf/) | [project] (https://roboticimaging.org/Projects/BurstSfM/)
+#### Burst Imaging for Light-Constrained Structure-From-Motion | [paper](https://roboticimaging.org/Papers/ravendran2022burst.pdf/) | [project](https://roboticimaging.org/Projects/BurstSfM/)
 - Establishes the viability of using burst imaging to improve robotic vision in low light, and provide a set of recommendations for adopting this approach in reconstruction tasks such as SfM.
 - Enables the use of direct methods for image registration within bursts by exploiting the small camera motion between frames to yield a strong SNR advantage and applies feature-based methods to handle large camera motions between bursts for reconstruction.
   
