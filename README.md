@@ -64,6 +64,12 @@ Exploits multi-scale local and non-local features to achieve improved alignment 
 - Explores the self-similarity present in bursts of images across time and space, leading to the representation of kernels as linear combinations of a small set of basis elements.
 - Introduces a novel basis prediction network that predicts global basis kernels shared within the image and pixel-specific mixing coefficients for individual pixels in the input burst.
 
+## ECCV 2020
+### Computational Photography (Low-Light Enhancement)
+#### Burst Denoising via Temporally Shifted Wavelet Transforms | [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580239.pdf)
+- Proposes an end-to-end trainable burst denoising pipeline to address the challenges of low light imaging in mobile photography, where long exposures can improve signal-to-noise ratio (SNR) but may introduce undesirable motion blur in dynamic scenes.
+- Highlights the use of computational photography techniques, such as fusing multiple short exposures, to enhance SNR and generate visually pleasing results with deep network-based methods, nd introduces a novel model that jointly captures high-resolution and high-frequency deep features derived from wavelet transforms. The model preserves precious local details in high-frequency sub-band features to enhance final perceptual quality and uses low-frequency sub-band features for faithful reconstruction and final objective quality.
+
 # Classical Conference Papers
 ## CVPR 2019
 ### Computational Photography (Low-Light Enhancement)
@@ -71,22 +77,32 @@ Exploits multi-scale local and non-local features to achieve improved alignment 
 - Utilizes a forward physics-based model to accurately describe each frame in the burst sequence, enabling the restoration of a single higher-quality image through an optimization problem.
 - Proposes a convolutional iterative network with a transparent architecture, inspired by the proximal gradient descent method for handling non-smooth functions and modern deep learning techniques.
 
+## ICIP 2019
+### Computational Photography (Low-Light Enhancement)
+#### Multi-Kernel Prediction Networks for Denoising of Burst Images | [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kokkinos_Iterative_Residual_CNNs_for_Burst_Photography_Applications_CVPR_2019_paper.pdf) | [project](https://fkokkinos.github.io/deep_burst/) |
+- Utilizes a forward physics-based model to accurately describe each frame in the burst sequence, enabling the restoration of a single higher-quality image through an optimization problem.
+- Proposes a convolutional iterative network with a transparent architecture, inspired by the proximal gradient descent method for handling non-smooth functions and modern deep learning techniques.
+
+## ECCV 2018
+### Computational Photography (Low-Light Enhancement, Deblurring)
+#### Deep Burst Denoising | [paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Clement_Godard_Deep_Burst_Denoising_ECCV_2018_paper.pdf)
+- Proposes a strategy for mitigating noise in low-light situations by capturing multiple short frames in a burst and intelligently integrating the content, avoiding issues associated with long exposures.
+- Implements integration using a recurrent fully convolutional deep neural net (CNN), creating a novel multiframe architecture that can be added to any single frame denoising model.
+  
+## ECCV 2018
+#### Burst Image Deblurring Using Permutation Invariant Convolutional Neural Networks | [paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Miika_Aittala_Burst_Image_Deblurring_ECCV_2018_paper.pdf) | [project](https://github.com/FrederikWarburg/Burst-Image-Deblurring) |
+- Presents a neural approach for fusing a burst of photographs with severe camera shake and noise into a sharp and noise-free image.
+- Introduces a novel convolutional architecture that simultaneously views all frames in the burst in an order-independent manner, effectively detecting and leveraging subtle cues scattered across different frames.
+  
 ## CVPR 2018
 ### Computational Photography (Low-Light Enhancement)
 #### Burst Denoising with Kernel Prediction Networks | [paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Mildenhall_Burst_Denoising_With_CVPR_2018_paper.pdf) | [project](https://github.com/google/burst-denoising) |
 - Introduces a novel technique for denoising bursts of images captured from a handheld camera using a convolutional neural network architecture.
 - Predicts spatially varying kernels, enabling simultaneous alignment and denoising of frames, by utilizing a synthetic data generation approach based on a realistic noise formation model and an optimization to prevent undesirable local minima.
-
-### Computational Photography (Low-Light Enhancement)
+  
 #### Learning to See in the Dark | [paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_Learning_to_See_CVPR_2018_paper.pdf) | [project](https://github.com/cchen156/Learning-to-See-in-the-Dark) |
 - Introduces a challenging problem of imaging in low light conditions with issues like low photon count and low SNR, where short-exposure images suffer from noise, and long exposure can induce blur, and highlights the limitations of existing denoising, deblurring, and enhancement techniques in extreme conditions, such as video-rate imaging at night.
 - Processes low-light images using end-to-end training of a fully-convolutional network that operates directly on raw sensor data, replacing much of the traditional image processing pipeline that performs poorly on such data.
-
-## ECCV 2018
-### Computational Photography (Deblurring)
-#### Burst Image Deblurring Using Permutation Invariant Convolutional Neural Networks | [paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Miika_Aittala_Burst_Image_Deblurring_ECCV_2018_paper.pdf) | [project](https://github.com/FrederikWarburg/Burst-Image-Deblurring) |
-- Presents a neural approach for fusing a burst of photographs with severe camera shake and noise into a sharp and noise-free image.
-- Introduces a novel convolutional architecture that simultaneously views all frames in the burst in an order-independent manner, effectively detecting and leveraging subtle cues scattered across different frames.
   
 ## CVPR 2015 
 ### Computational Photography (Deblurring)
@@ -95,33 +111,38 @@ Exploits multi-scale local and non-local features to achieve improved alignment 
 - Performs a weighted average in the Fourier domain, leveraging the random nature of camera shake, where each image in the burst is typically blurred differently.
 
 # Journals
-# 2022
-## RA-L
+## RA-L 2022
 ### Robotic Vision (Low-Light Enhancement)
 #### Burst Imaging for Light-Constrained Structure-From-Motion | [paper](https://roboticimaging.org/Papers/ravendran2022burst.pdf/) | [project](https://roboticimaging.org/Projects/BurstSfM/) |
 - Establishes the viability of using burst imaging to improve robotic vision in low light, and provide a set of recommendations for adopting this approach in reconstruction tasks such as SfM.
 - Enables the use of direct methods for image registration within bursts by exploiting the small camera motion between frames to yield a strong SNR advantage and applies feature-based methods to handle large camera motions between bursts for reconstruction.
   
-## ACM ToG
+## ACM ToG 2022
 ### Computational Photography (Super Resolution)
 #### High Dynamic Range and Super-Resolution from Raw Image Bursts | [paper](https://dl.acm.org/doi/pdf/10.1145/3528223.3530180/) |
 - Reconstructs high-resolution, high-dynamic range color images from raw photographic bursts taken by handheld cameras with exposure bracketing.
 - Leverages a physically-accurate model of image formation by combining an iterative optimization algorithm for solving the inverse problem, a learned image representation for alignment, and a learned natural image prior.
 
-## IJCV
+## IJCV 2022
 ### Computational Phtography (Low-Light Enhancement)
 #### Efficient Burst Raw Denoising with Variance Stabilization and Multi-frequency Denoising Network | [paper](https://dl.acm.org/doi/abs/10.1007/s11263-022-01627-3) |
 - Proposes a three-stage design for the burst denoising process including noise prior integration, multi-frame alignment and multi-frame denoising
 - Demonstrates the efficiency and strong performance of the proposed three-stage design on burst denoising through experiments on synthetic and real raw datasets.
-  
-## 2020
-## ACM ToG
+
+## ACM ToG 2020
 ### Quanta Burst Imaging (Low-Light Enhancement)
 #### Quanta Burst Photography | [paper](https://dl.acm.org/doi/pdf/10.1145/3528223.3530180/] | [project](https://wisionlab.com/project/quanta-burst-photography/) |
 - Introduces qa computational photography technique that utilizes single-photon cameras (SPCs) as passive imaging devices for challenging conditions like ultra low-light and fast motion.
 - Aligns and merges binary sequences from SPCs, producing intensity images with minimal motion blur, artifacts, high signal-to-noise ratio (SNR), and a wide dynamic range demonstrate the generation of high-quality images using SPADs.
 
 # Classical Journal Papers
+## IEEE Transactions on Image Processing 2021
+### Computational Phtography (Low-Light Enhancement)
+#### Burst Photography for Learning to Enhance Extremely Dark Images | [paper](https://web.cs.hacettepe.edu.tr/~erkut/publications/dark-burst-photography-lowres.pdf) |
+- Proposes a learning-based approach using burst photography to significantly improve the performance and obtain sharper and more accurate RGB images from extremely dark raw images.
+- Introduces a novel coarse-to-fine network architecture as the backbone of the proposed framework. The coarse network predicts a low-resolution, denoised raw image, which is further refined by the fine network to recover fine-scale details and realistic textures, and extends the network to a permutation invariant structure, enabling it to take a burst of low-light images as input and merge information from multiple images at the feature-level, reducing noise and improving color accuracy.
+
+## ACM ToG 2019
 ### Computational Photography (Low-Light Enhancement, Super-Resolution)
 #### Handheld multi-frame super-resolution | [paper](https://dl.acm.org/doi/abs/10.1145/3306346.3323024) |
 - Proposes a novel approach to replace traditional demosaicing in single-frame and burst photography pipelines with a multiframe super-resolution algorithm, directly creating a complete RGB image from a burst of CFA raw images.
@@ -130,7 +151,8 @@ Exploits multi-scale local and non-local features to achieve improved alignment 
 #### Handheld Mobile Photography in Very Low Light | [paper]([https://3dvar.com/Liba2019Handheld.pdf](https://dl.acm.org/doi/10.1145/3355089.3356508)) |
 - Describes a system for capturing clean, sharp, and colorful photographs in extremely low light conditions (as low as 0.3 lux) using mobile phones, where human vision becomes monochromatic and indistinct, and addresses the challenges of low-light photography with mobile phones, considering factors such as read noise, photon shot noise, small apertures, and handheld usage with moving subjects.
 - Employs a multi-frame technique using motion metering to estimate motion magnitudes, enabling the capture of handheld photographs without flash illumination. The system optimizes the number of frames and per-frame exposure times to minimize both noise and motion blur in the captured burst.
-  
+
+## ACM ToG 2016
 #### Burst photography for high dynamic range and low-light imaging on mobile cameras | [paper](https://dl.acm.org/doi/abs/10.1145/2980179.2980254) | [project](https://fkokkinos.github.io/deep_burst/) |
 - Captures, aligns, and merges a burst of frames, avoiding bracketed exposures. This approach ensures more robust alignment, while setting the exposure low enough to prevent blown-out highlights, resulting in a merged image exhibiting clean shadows and high bit depth, enabling standard HDR tone mapping methods.
 - Adopts a novel FFT-based alignment algorithm and a hybrid 2D/3D Wiener filter for denoising and merging frames within a burst.
