@@ -166,6 +166,7 @@ Exploits multi-scale local and non-local features to achieve improved alignment 
 - Adopts a novel FFT-based alignment algorithm and a hybrid 2D/3D Wiener filter for denoising and merging frames within a burst.
 
 ## ACM ToG 2014
-### Fast Burst Images Denoising (Low-Light Enhancement) | [paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/FastBurstDenoising_SIGGRAPHASIA14.pdf) |
+### Computational Photography (Low-Light Enhancement)
+#### Fast Burst Images Denoising (Low-Light Enhancement) | [paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/FastBurstDenoising_SIGGRAPHASIA14.pdf) |
 - Introduces a fast denoising method capable of generating a clean image from a burst of noisy images, and accelerates image alignment using a lightweight camera motion representation known as homography flow, reducing computational overhead.
   Implements efficient temporal and spatial fusion to denoise the aligned images, ensuring rapid per-pixel operations, with a mechanism for selecting consistent pixels during temporal fusion to synthesize a clean, ghost-free image, reducing the need for extensive motion tracking between frames.
