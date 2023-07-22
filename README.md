@@ -1,5 +1,5 @@
 # Burst-Imaging
-A Comprehensive Collection of Papers and Repositories from CVPR, ICCV, and WACV (2016-2023)
+A Comprehensive Collection of Papers and Repositories from CVPR, ICCV, and WACV (2016-2023) and Top-Tier Journals
 
 Burst imaging has emerged as a powerful technique in computer vision and image processing, allowing us to capture and analyze temporal sequences of images to gain valuable insights. In recent years, top-tier conferences in computer vision, including CVPR (Conference on Computer Vision and Pattern Recognition), ICCV (International Conference on Computer Vision), and WACV (Winter Conference on Applications of Computer Vision) and journals have witnessed a surge in research focused on burst imaging.
 
