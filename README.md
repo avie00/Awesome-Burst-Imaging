@@ -153,6 +153,7 @@ Exploits multi-scale local and non-local features to achieve improved alignment 
 - Employs a multi-frame technique using motion metering to estimate motion magnitudes, enabling the capture of handheld photographs without flash illumination. The system optimizes the number of frames and per-frame exposure times to minimize both noise and motion blur in the captured burst.
 
 ## ACM ToG 2016
+### Computational Photography (Low-Light Enhancement)
 #### Burst photography for high dynamic range and low-light imaging on mobile cameras | [paper](https://dl.acm.org/doi/abs/10.1145/2980179.2980254) | [project](https://fkokkinos.github.io/deep_burst/) |
 - Captures, aligns, and merges a burst of frames, avoiding bracketed exposures. This approach ensures more robust alignment, while setting the exposure low enough to prevent blown-out highlights, resulting in a merged image exhibiting clean shadows and high bit depth, enabling standard HDR tone mapping methods.
 - Adopts a novel FFT-based alignment algorithm and a hybrid 2D/3D Wiener filter for denoising and merging frames within a burst.
