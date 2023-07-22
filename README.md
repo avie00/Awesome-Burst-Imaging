@@ -138,7 +138,7 @@ Exploits multi-scale local and non-local features to achieve improved alignment 
 
 ## ACM ToG 2020
 ### Quanta Burst Imaging (Low-Light Enhancement)
-#### Quanta Burst Photography | [paper](https://dl.acm.org/doi/pdf/10.1145/3528223.3530180/] | [project](https://wisionlab.com/project/quanta-burst-photography/) |
+#### Quanta Burst Photography | [paper](https://dl.acm.org/doi/pdf/10.1145/3528223.3530180/) | [project](https://wisionlab.com/project/quanta-burst-photography/) |
 - Introduces qa computational photography technique that utilizes single-photon cameras (SPCs) as passive imaging devices for challenging conditions like ultra low-light and fast motion.
 - Aligns and merges binary sequences from SPCs, producing intensity images with minimal motion blur, artifacts, high signal-to-noise ratio (SNR), and a wide dynamic range demonstrate the generation of high-quality images using SPADs.
 
@@ -155,7 +155,7 @@ Exploits multi-scale local and non-local features to achieve improved alignment 
 - Proposes a novel approach to replace traditional demosaicing in single-frame and burst photography pipelines with a multiframe super-resolution algorithm, directly creating a complete RGB image from a burst of CFA raw images.
 - Utilizes natural hand tremor, typical in handheld photography, to capture a burst of raw frames with small offsets, which are then aligned and merged to form a single image with RGB values at every pixel site.
   
-#### Handheld Mobile Photography in Very Low Light | [paper]([https://3dvar.com/Liba2019Handheld.pdf](https://dl.acm.org/doi/10.1145/3355089.3356508)) |
+#### Handheld Mobile Photography in Very Low Light | [paper](https://3dvar.com/Liba2019Handheld.pdf](https://dl.acm.org/doi/10.1145/3355089.3356508) |
 - Describes a system for capturing clean, sharp, and colorful photographs in extremely low light conditions (as low as 0.3 lux) using mobile phones, where human vision becomes monochromatic and indistinct, and addresses the challenges of low-light photography with mobile phones, considering factors such as read noise, photon shot noise, small apertures, and handheld usage with moving subjects.
 - Employs a multi-frame technique using motion metering to estimate motion magnitudes, enabling the capture of handheld photographs without flash illumination. The system optimizes the number of frames and per-frame exposure times to minimize both noise and motion blur in the captured burst.
 
