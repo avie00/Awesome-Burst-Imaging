@@ -33,21 +33,24 @@ Exploits multi-scale local and non-local features to achieve improved alignment 
 - Demonstrates the capabilities of SPAD sensors, combined with burst processing, in handling extremely challenging imaging conditions such as fast motion, low light, and high dynamic range, and showcases their effectiveness in various real-world computer vision tasks including object detection, pose estimation, SLAM, and text recognition.
 
 ## CVPR 2022
-
 ### Computational Photography (Image Enhancement, Low Light Enhancement, Large Shift Alignment)
 #### Burst Image Restoration and Enhancement | [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Dudhane_Burst_Image_Restoration_and_Enhancement_CVPR_2022_paper.pdf) | [project](https://github.com/akshaydudhane16/BIPNet) |
 - Introduces the concept of pseudo-burst features, combining complimentary information from input burst frames to facilitate seamless information exchange and uses an edge-boosting burst alignment module to properly align individual burst frames, enabling successful creation of pseudo-burst features.
 - Enriches the pseudo-burst features using multi-scale contextual information, and adaptively aggregates information to progressively increase resolution and merge the pseudo-burst features.
 
+#### Dancing Under the Stars: Video Denoising in Starlight | [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Monakhova_Dancing_Under_the_Stars_Video_Denoising_in_Starlight_CVPR_2022_paper.pdf) | [project](https://kristinamonakhova.com/starlight_denoising/) |
+- Demonstrates photorealistic video denoising in extremely low light conditions, specifically under starlight (<0.001 lux), a challenging scenario with very low photon counts.
+- Develops a GAN-tuned physics-based noise model to accurately represent camera noise at the lowest light levels, enabling more realistic noise modeling for the denoising process, and trains a video denoiser using a combination of simulated noisy video clips and real noisy still burst of images, effectively learning to remove noise and improve video quality in low light conditions.
+  
 #### A Differentiable Two-stage Alignment Scheme for Burst Image Reconstruction with Large Shift | [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_A_Differentiable_Two-Stage_Alignment_Scheme_for_Burst_Image_Reconstruction_With_CVPR_2022_paper.pdf) |
 - Introduces joint denoising and demosaicking (JDD) for burst images (JDD-B) as a crucial step in reconstructing high-quality full-color images from raw data captured by modern imaging devices.
 - Identifies robust alignment of burst image frames as a key challenge in JDD-B due to large shifts caused by camera and object motion, and ddresses the alignment challenges by proposing a differentiable two-stage alignment scheme, utilizing patch-level and pixel-level alignment sequentially.
 
+### Neural Radiance Field (Low-Light Enhancement)
 #### NAN: Noise-Aware NeRFs for Burst-Denoising | [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Pearl_NAN_Noise-Aware_NeRFs_for_Burst-Denoising_CVPR_2022_paper.pdf) | [project](https://noise-aware-nerf.github.io/) |
 - Identifies a major challenge in burst denoising related to coping with pixel misalignment, especially in the presence of large motion and high noise levels.
 - Proposes a novel approach called NAN1, which utilizes Neural Radiance Fields (NeRFs) originally designed for physics-based novel-view rendering, as a powerful framework for burst denoising.
 
-### Neural Radiance Field (Low-Light Enhancement)
 #### NeRF in the Dark: High Dynamic Range View Synthesis from Noisy Raw Images | [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Mildenhall_NeRF_in_the_Dark_High_Dynamic_Range_View_Synthesis_From_CVPR_2022_paper.pdf) | [project](https://bmild.github.io/rawnerf/)
 - Presents RawNeRF, a modification of Neural Radiance Fields (NeRF) for high-quality novel view synthesis from linear raw images, preserving the scene's full dynamic range.
 - Enables novel high dynamic range (HDR) view synthesis tasks, allowing manipulation of focus, exposure, and tonemapping.
@@ -69,6 +72,10 @@ Exploits multi-scale local and non-local features to achieve improved alignment 
 #### Burst Denoising via Temporally Shifted Wavelet Transforms | [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580239.pdf)
 - Proposes an end-to-end trainable burst denoising pipeline to address the challenges of low light imaging in mobile photography, where long exposures can improve signal-to-noise ratio (SNR) but may introduce undesirable motion blur in dynamic scenes.
 - Highlights the use of computational photography techniques, such as fusing multiple short exposures, to enhance SNR and generate visually pleasing results with deep network-based methods, nd introduces a novel model that jointly captures high-resolution and high-frequency deep features derived from wavelet transforms. The model preserves precious local details in high-frequency sub-band features to enhance final perceptual quality and uses low-frequency sub-band features for faithful reconstruction and final objective quality.
+
+#### A Decoupled Learning Scheme for Real-World Burst Denoising from Raw Images | [paper](https://www4.comp.polyu.edu.hk/~cslzhang/paper/conf/ECCV20/BDNet.pdf) | [project](https://github.com/zhetongliang/BDNet) |
+- Addresses limitations of existing learning-based burst denoising methods, which are often trained on video sequences with synthetic noise, leading to visual artifacts when applied to real-world raw image sequences with different noise statistics.
+- Introduces a carefully designed multi-frame CNN model that decouples the learning of motion from the learning of noise statistics, enabling the model to adapt to real-world noisy datasets of static scenes and perform effective burst denoising on dynamic sequences.
 
 # Classical Conference Papers
 ## CVPR 2019
