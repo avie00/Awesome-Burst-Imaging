@@ -51,7 +51,7 @@ Exploits multi-scale local and non-local features to achieve improved alignment 
 - Identifies a major challenge in burst denoising related to coping with pixel misalignment, especially in the presence of large motion and high noise levels.
 - Proposes a novel approach called NAN1, which utilizes Neural Radiance Fields (NeRFs) originally designed for physics-based novel-view rendering, as a powerful framework for burst denoising.
 
-#### NeRF in the Dark: High Dynamic Range View Synthesis from Noisy Raw Images | [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Mildenhall_NeRF_in_the_Dark_High_Dynamic_Range_View_Synthesis_From_CVPR_2022_paper.pdf) | [project](https://bmild.github.io/rawnerf/)
+#### NeRF in the Dark: High Dynamic Range View Synthesis from Noisy Raw Images | [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Mildenhall_NeRF_in_the_Dark_High_Dynamic_Range_View_Synthesis_From_CVPR_2022_paper.pdf) | [project](https://bmild.github.io/rawnerf/) |
 - Presents RawNeRF, a modification of Neural Radiance Fields (NeRF) for high-quality novel view synthesis from linear raw images, preserving the scene's full dynamic range.
 - Enables novel high dynamic range (HDR) view synthesis tasks, allowing manipulation of focus, exposure, and tonemapping.
   
@@ -69,7 +69,7 @@ Exploits multi-scale local and non-local features to achieve improved alignment 
 
 ## ECCV 2020
 ### Computational Photography (Low-Light Enhancement)
-#### Burst Denoising via Temporally Shifted Wavelet Transforms | [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580239.pdf)
+#### Burst Denoising via Temporally Shifted Wavelet Transforms | [paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580239.pdf) |
 - Proposes an end-to-end trainable burst denoising pipeline to address the challenges of low light imaging in mobile photography, where long exposures can improve signal-to-noise ratio (SNR) but may introduce undesirable motion blur in dynamic scenes.
 - Highlights the use of computational photography techniques, such as fusing multiple short exposures, to enhance SNR and generate visually pleasing results with deep network-based methods, nd introduces a novel model that jointly captures high-resolution and high-frequency deep features derived from wavelet transforms. The model preserves precious local details in high-frequency sub-band features to enhance final perceptual quality and uses low-frequency sub-band features for faithful reconstruction and final objective quality.
 
@@ -92,7 +92,7 @@ Exploits multi-scale local and non-local features to achieve improved alignment 
 
 ## ECCV 2018
 ### Computational Photography (Low-Light Enhancement, Deblurring)
-#### Deep Burst Denoising | [paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Clement_Godard_Deep_Burst_Denoising_ECCV_2018_paper.pdf)
+#### Deep Burst Denoising | [paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Clement_Godard_Deep_Burst_Denoising_ECCV_2018_paper.pdf) |
 - Proposes a strategy for mitigating noise in low-light situations by capturing multiple short frames in a burst and intelligently integrating the content, avoiding issues associated with long exposures.
 - Implements integration using a recurrent fully convolutional deep neural net (CNN), creating a novel multiframe architecture that can be added to any single frame denoising model.
   
