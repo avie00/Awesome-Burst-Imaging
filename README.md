@@ -164,3 +164,8 @@ Exploits multi-scale local and non-local features to achieve improved alignment 
 #### Burst photography for high dynamic range and low-light imaging on mobile cameras | [paper](https://dl.acm.org/doi/abs/10.1145/2980179.2980254) | [project](https://fkokkinos.github.io/deep_burst/) |
 - Captures, aligns, and merges a burst of frames, avoiding bracketed exposures. This approach ensures more robust alignment, while setting the exposure low enough to prevent blown-out highlights, resulting in a merged image exhibiting clean shadows and high bit depth, enabling standard HDR tone mapping methods.
 - Adopts a novel FFT-based alignment algorithm and a hybrid 2D/3D Wiener filter for denoising and merging frames within a burst.
+
+## ACM ToG 2014
+### Fast Burst Images Denoising (Low-Light Enhancement) | [paper](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/FastBurstDenoising_SIGGRAPHASIA14.pdf) |
+- Introduces a fast denoising method capable of generating a clean image from a burst of noisy images, and accelerates image alignment using a lightweight camera motion representation known as homography flow, reducing computational overhead.
+  Implements efficient temporal and spatial fusion to denoise the aligned images, ensuring rapid per-pixel operations, with a mechanism for selecting consistent pixels during temporal fusion to synthesize a clean, ghost-free image, reducing the need for extensive motion tracking between frames.
