@@ -46,6 +46,11 @@ Exploits multi-scale local and non-local features to achieve improved alignment 
 #### NAN: Noise-Aware NeRFs for Burst-Denoising | [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Pearl_NAN_Noise-Aware_NeRFs_for_Burst-Denoising_CVPR_2022_paper.pdf) | [project](https://noise-aware-nerf.github.io/) |
 - Identifies a major challenge in burst denoising related to coping with pixel misalignment, especially in the presence of large motion and high noise levels.
 - Proposes a novel approach called NAN1, which utilizes Neural Radiance Fields (NeRFs) originally designed for physics-based novel-view rendering, as a powerful framework for burst denoising.
+
+### Neural Radiance Field (Low-Light Enhancement)
+#### NeRF in the Dark: High Dynamic Range View Synthesis from Noisy Raw Images | [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Mildenhall_NeRF_in_the_Dark_High_Dynamic_Range_View_Synthesis_From_CVPR_2022_paper.pdf) | [project](https://bmild.github.io/rawnerf/)
+- Presents RawNeRF, a modification of Neural Radiance Fields (NeRF) for high-quality novel view synthesis from linear raw images, preserving the scene's full dynamic range.
+- Enables novel high dynamic range (HDR) view synthesis tasks, allowing manipulation of focus, exposure, and tonemapping.
   
 ## CVPR 2021
 ### Computational Photography (Super-Resolution)
@@ -55,11 +60,11 @@ Exploits multi-scale local and non-local features to achieve improved alignment 
   
 ## CVPR 2020
 ### Computational Photography (Low-Light Enhancement)
-Basis Prediction Networks for Effective Burst Denoising with Large Kernels | [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Xia_Basis_Prediction_Networks_for_Effective_Burst_Den) | [project](https://github.com/likesum/bpn) |
+#### Basis Prediction Networks for Effective Burst Denoising with Large Kernels | [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Xia_Basis_Prediction_Networks_for_Effective_Burst_Den) | [project](https://github.com/likesum/bpn) |
 - Explores the self-similarity present in bursts of images across time and space, leading to the representation of kernels as linear combinations of a small set of basis elements.
 - Introduces a novel basis prediction network that predicts global basis kernels shared within the image and pixel-specific mixing coefficients for individual pixels in the input burst.
 
-# Classical Papers
+# Classical Conference Papers
 ## CVPR 2019
 ### Computational Photography (Low-Light Enhancement)
 #### Iterative Residual CNNs for Burst Photography Applications | [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kokkinos_Iterative_Residual_CNNs_for_Burst_Photography_Applications_CVPR_2019_paper.pdf) | [project](https://fkokkinos.github.io/deep_burst/) |
@@ -98,3 +103,17 @@ Basis Prediction Networks for Effective Burst Denoising with Large Kernels | [pa
 #### Quanta Burst Photography | [paper](https://dl.acm.org/doi/pdf/10.1145/3528223.3530180/] | [project](https://wisionlab.com/project/quanta-burst-photography/) |
 - Introduces qa computational photography technique that utilizes single-photon cameras (SPCs) as passive imaging devices for challenging conditions like ultra low-light and fast motion.
 - Aligns and merges binary sequences from SPCs, producing intensity images with minimal motion blur, artifacts, high signal-to-noise ratio (SNR), and a wide dynamic range demonstrate the generation of high-quality images using SPADs.
+
+# Classical Journal Papers
+### Computational Photography (Low-Light Enhancement, Super-Resolution)
+#### Handheld multi-frame super-resolution | [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kokkinos_Iterative_Residual_CNNs_for_Burst_Photography_Applications_CVPR_2019_paper.pdf) | [project](https://fkokkinos.github.io/deep_burst/) |
+- Utilizes a forward physics-based model to accurately describe each frame in the burst sequence, enabling the restoration of a single higher-quality image through an optimization problem.
+- Proposes a convolutional iterative network with a transparent architecture, inspired by the proximal gradient descent method for handling non-smooth functions and modern deep learning techniques.
+
+#### Handheld Mobile Photography in Very Low Light | [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kokkinos_Iterative_Residual_CNNs_for_Burst_Photography_Applications_CVPR_2019_paper.pdf) | [project](https://fkokkinos.github.io/deep_burst/) |
+- Utilizes a forward physics-based model to accurately describe each frame in the burst sequence, enabling the restoration of a single higher-quality image through an optimization problem.
+- Proposes a convolutional iterative network with a transparent architecture, inspired by the proximal gradient descent method for handling non-smooth functions and modern deep learning techniques.
+
+#### Burst photography for high dynamic range and low-light imaging on mobile cameras | [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kokkinos_Iterative_Residual_CNNs_for_Burst_Photography_Applications_CVPR_2019_paper.pdf) | [project](https://fkokkinos.github.io/deep_burst/) |
+- Utilizes a forward physics-based model to accurately describe each frame in the burst sequence, enabling the restoration of a single higher-quality image through an optimization problem.
+- Proposes a convolutional iterative network with a transparent architecture, inspired by the proximal gradient descent method for handling non-smooth functions and modern deep learning techniques.
