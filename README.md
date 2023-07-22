@@ -9,7 +9,7 @@ Please note that this collection is an ongoing effort, and encourage the communi
 # Conferences
 ## CVPR 2023
 ### Computational Photography (Image Restoration and Enhancement)
-#### Burstormer: Burst Image Restoration and Enhancement Transformer | [paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Dudhane_Burstormer_Burst_Image_Restoration_and_Enhancement_Transformer_CVPR_2023_paper.pdf) | [project](https://github.com/akshaydudhane16/Burstormer)
+#### Burstormer: Burst Image Restoration and Enhancement Transformer | [paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Dudhane_Burstormer_Burst_Image_Restoration_and_Enhancement_Transformer_CVPR_2023_paper.pdf) | [project](https://github.com/akshaydudhane16/Burstormer) |
 - Proposes Burstormer, a transformer-based architecture for burst image restoration and enhancement, addressing the challenges of misalignment and degradation in burst frames.
 Exploits multi-scale local and non-local features to achieve improved alignment and feature fusion, enabling inter-frame communication and burst-wide context modeling.
 - Introduces an enhanced deformable alignment module that not only aligns burst features but also exchanges feature information and maintains focused communication with the reference frame through a reference-based feature enrichment mechanism.
@@ -19,7 +19,7 @@ Exploits multi-scale local and non-local features to achieve improved alignment 
   
 ## WACV 2023
 ### Computational Photography (Reflection Removal, Super Resolution)
-#### Burst Reflection Removal using Reflection Motion Aggregation Cues | [paper](https://openaccess.thecvf.com/content/WACV2023/papers/Prasad_Burst_Reflection_Removal_Using_Reflection_Motion_Aggregation_Cues_WACV_2023_paper.pdf)
+#### Burst Reflection Removal using Reflection Motion Aggregation Cues | [paper](https://openaccess.thecvf.com/content/WACV2023/papers/Prasad_Burst_Reflection_Removal_Using_Reflection_Motion_Aggregation_Cues_WACV_2023_paper.pdf) |
 - Introduces a multi-stage deep learning approach for burst reflection removal, addressing the limitations of existing multi-image methods that require different view points and wide baselines.
 - Leverages a burst of images captured in a short time duration, exploiting subtle handshakes to separate reflection and transmission layers, and presents a novel reflection motion aggregation (RMA) cue that emphasizes the transmission layer and aids in better layer separation.
 
