@@ -8,7 +8,7 @@ Please note that this collection is an ongoing effort, and encourage the communi
 
 # Conferences
 ## CVPR 2023
-### Computational Photography (Image Restoration and Enhancement)
+### Computational Photography (Image Enhancement)
 #### Burstormer: Burst Image Restoration and Enhancement Transformer | [paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Dudhane_Burstormer_Burst_Image_Restoration_and_Enhancement_Transformer_CVPR_2023_paper.pdf) | [project](https://github.com/akshaydudhane16/Burstormer) |
 - Proposes Burstormer, a transformer-based architecture for burst image restoration and enhancement, addressing the challenges of misalignment and degradation in burst frames.
 Exploits multi-scale local and non-local features to achieve improved alignment and feature fusion, enabling inter-frame communication and burst-wide context modeling.
@@ -34,7 +34,7 @@ Exploits multi-scale local and non-local features to achieve improved alignment 
 
 ## CVPR 2022
 
-### Computational Photography (Image Restoration and Enhancement, Low Light Enhancement, Large Shift Alignment)
+### Computational Photography (Image Enhancement, Low Light Enhancement, Large Shift Alignment)
 #### Burst Image Restoration and Enhancement | [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Dudhane_Burst_Image_Restoration_and_Enhancement_CVPR_2022_paper.pdf) | [project](https://github.com/akshaydudhane16/BIPNet) |
 - Introduces the concept of pseudo-burst features, combining complimentary information from input burst frames to facilitate seamless information exchange and uses an edge-boosting burst alignment module to properly align individual burst frames, enabling successful creation of pseudo-burst features.
 - Enriches the pseudo-burst features using multi-scale contextual information, and adaptively aggregates information to progressively increase resolution and merge the pseudo-burst features.
@@ -55,26 +55,26 @@ Exploits multi-scale local and non-local features to achieve improved alignment 
   
 ## CVPR 2020
 ### Computational Photography (Low-Light Enhancement)
-Basis Prediction Networks for Effective Burst Denoising with Large Kernels | [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Xia_Basis_Prediction_Networks_for_Effective_Burst_Den) | [project](https://github.com/likesum/bpn)
+Basis Prediction Networks for Effective Burst Denoising with Large Kernels | [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Xia_Basis_Prediction_Networks_for_Effective_Burst_Den) | [project](https://github.com/likesum/bpn) |
 - Explores the self-similarity present in bursts of images across time and space, leading to the representation of kernels as linear combinations of a small set of basis elements.
 - Introduces a novel basis prediction network that predicts global basis kernels shared within the image and pixel-specific mixing coefficients for individual pixels in the input burst.
 
 # Classical Papers
 ## CVPR 2019
 ### Computational Photography (Low-Light Enhancement)
-#### Iterative Residual CNNs for Burst Photography Applications | [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kokkinos_Iterative_Residual_CNNs_for_Burst_Photography_Applications_CVPR_2019_paper.pdf) | [project](https://fkokkinos.github.io/deep_burst/)
+#### Iterative Residual CNNs for Burst Photography Applications | [paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kokkinos_Iterative_Residual_CNNs_for_Burst_Photography_Applications_CVPR_2019_paper.pdf) | [project](https://fkokkinos.github.io/deep_burst/) |
 - Utilizes a forward physics-based model to accurately describe each frame in the burst sequence, enabling the restoration of a single higher-quality image through an optimization problem.
 - Proposes a convolutional iterative network with a transparent architecture, inspired by the proximal gradient descent method for handling non-smooth functions and modern deep learning techniques.
 
 ## CVPR 2018
 ### Computational Photography (Low-Light Enhancement)
-#### Burst Denoising with Kernel Prediction Networks | [paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Mildenhall_Burst_Denoising_With_CVPR_2018_paper.pdf) | [project](https://github.com/google/burst-denoising)
+#### Burst Denoising with Kernel Prediction Networks | [paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Mildenhall_Burst_Denoising_With_CVPR_2018_paper.pdf) | [project](https://github.com/google/burst-denoising) |
 - Introduces a novel technique for denoising bursts of images captured from a handheld camera using a convolutional neural network architecture.
 - Predicts spatially varying kernels, enabling simultaneous alignment and denoising of frames, by utilizing a synthetic data generation approach based on a realistic noise formation model and an optimization to prevent undesirable local minima.
 
 ## CVPR 2015 
 ### Computational Photography (Deblurring)
-#### Burst Deblurring: Removing Camera Shake Through Fourier Burst Accumulation | [paper](https://openaccess.thecvf.com/content_cvpr_2015/papers/Delbracio_Burst_Deblurring_Removing_2015_CVPR_paper.pdf) | [project](https://roboticimaging.org/Projects/BurstSfM/)
+#### Burst Deblurring: Removing Camera Shake Through Fourier Burst Accumulation | [paper](https://openaccess.thecvf.com/content_cvpr_2015/papers/Delbracio_Burst_Deblurring_Removing_2015_CVPR_paper.pdf) | [project](https://roboticimaging.org/Projects/BurstSfM/) |
 - Introduces a novel approach for removing image blur caused by camera shake, particularly when a burst of images is available as input.
 - Performs a weighted average in the Fourier domain, leveraging the random nature of camera shake, where each image in the burst is typically blurred differently.
 
@@ -82,7 +82,7 @@ Basis Prediction Networks for Effective Burst Denoising with Large Kernels | [pa
 # 2022
 ## RA-L
 ### Robotic Vision (Low-Light Enhancement)
-#### Burst Imaging for Light-Constrained Structure-From-Motion | [paper](https://roboticimaging.org/Papers/ravendran2022burst.pdf/) | [project](https://roboticimaging.org/Projects/BurstSfM/)
+#### Burst Imaging for Light-Constrained Structure-From-Motion | [paper](https://roboticimaging.org/Papers/ravendran2022burst.pdf/) | [project](https://roboticimaging.org/Projects/BurstSfM/) |
 - Establishes the viability of using burst imaging to improve robotic vision in low light, and provide a set of recommendations for adopting this approach in reconstruction tasks such as SfM.
 - Enables the use of direct methods for image registration within bursts by exploiting the small camera motion between frames to yield a strong SNR advantage and applies feature-based methods to handle large camera motions between bursts for reconstruction.
   
@@ -95,6 +95,6 @@ Basis Prediction Networks for Effective Burst Denoising with Large Kernels | [pa
 ## 2020
 ## ACM ToG
 ### Quanta Burst Imaging (Low-Light Enhancement)
-#### Quanta Burst Photography | [paper](https://dl.acm.org/doi/pdf/10.1145/3528223.3530180/](https://wisionlab.com/project/quanta-burst-photography/) |
+#### Quanta Burst Photography | [paper](https://dl.acm.org/doi/pdf/10.1145/3528223.3530180/] | [project](https://wisionlab.com/project/quanta-burst-photography/) |
 - Introduces qa computational photography technique that utilizes single-photon cameras (SPCs) as passive imaging devices for challenging conditions like ultra low-light and fast motion.
 - Aligns and merges binary sequences from SPCs, producing intensity images with minimal motion blur, artifacts, high signal-to-noise ratio (SNR), and a wide dynamic range demonstrate the generation of high-quality images using SPADs.
